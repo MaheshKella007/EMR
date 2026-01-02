@@ -153,14 +153,23 @@ const App: React.FC = () => {
                 )}
               </button>
 
-              <div className="text-center pt-2">
+              <div className="flex items-center justify-center gap-4 pt-2">
                 <button
                   type="button"
                   onClick={handleShowList}
                   disabled={isSearching}
-                  className="text-teal-600 hover:text-teal-700 font-bold text-sm underline transition-all flex items-center justify-center gap-1 mx-auto"
+                  className="text-teal-600 hover:text-teal-700 font-bold text-sm underline transition-all"
                 >
                   List of Patients
+                </button>
+                <span className="text-slate-300">|</span>
+                <button
+                  type="button"
+                  onClick={() => alert("Add New Patient feature is currently under construction.")}
+                  disabled={isSearching}
+                  className="text-teal-600 hover:text-teal-700 font-bold text-sm underline transition-all"
+                >
+                  Add Patient
                 </button>
               </div>
             </div>
