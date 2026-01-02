@@ -1,0 +1,5 @@
+{
+  "name": "MediView EMR Dashboard",
+  "description": "A comprehensive patient dashboard for medical professionals, featuring active problems, health maintenance, documentation, and lab trends.",
+  "requestFramePermissions": []
+}
